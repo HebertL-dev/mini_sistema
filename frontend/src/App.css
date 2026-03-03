@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f6f8;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  width: 100%;
+  max-width: 900px;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  text-align: center;
+}
+
+input {
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+input:focus {
+  border-color: #2563eb;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.download-btn {
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #2563eb;
+  color: white;
+  font-weight: 500;
+}
